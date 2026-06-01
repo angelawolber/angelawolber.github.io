@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hörbücher – Angela Wolber, Hörbuchsprecherin</title>
+  <meta name="description" content="Alle Hörbücher gesprochen von Angela Wolber – Romance, Science Fiction, Thriller und mehr. Direkt auf Audible und Amazon anhören." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">Angela Wolber</span>
+        <span class="logo-tagline">Sprecherin</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Start</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="hoerbuecher.html" class="active">Hörbücher</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menü öffnen">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ── PAGE HERO ── -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="hero-eyebrow">Meine Arbeit</p>
+      <h1 class="page-hero-title">Hörbücher</h1>
+      <p class="page-hero-subtitle">Geschichten, die unter die Haut gehen –<br>mit Stimme, Seele und Sorgfalt.</p>
+    </div>
+  </section>
+
+  <!-- ── HÖRBÜCHER ── -->
+  <section class="books section" id="books">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Alle Titel</span>
+        <h2 class="section-title">Reinhören & entdecken</h2>
+        <p class="section-intro">Wählen Sie Ihre bevorzugte Plattform und hören Sie direkt rein.</p>
+      </div>
+
+      <div class="filter-tabs" role="tablist">
+        <button class="filter-tab active" data-filter="all" role="tab">Alle</button>
+        <button class="filter-tab" data-filter="romance" role="tab">Romance</button>
+        <button class="filter-tab" data-filter="teen-ya" role="tab">Teen &amp; YA</button>
+        <button class="filter-tab" data-filter="science-fiction" role="tab">Science Fiction</button>
+        <button class="filter-tab" data-filter="thriller" role="tab">Thriller</button>
+      </div>
+
+      <div class="books-grid" id="booksGrid">
+
+        <!-- Psi Corps 2044: Prager Frühling -->
+        <article class="book-card" data-category="thriller">
+          <div class="book-cover-wrap">
+            <img src="cover/psi-corps-2044-prager_fruehling.jpg" alt="Buchcover: Psi Corps 2044 – Prager Frühling" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Thriller</span>
+            <h3 class="book-title">Psi Corps 2044 – Prager Frühling</h3>
+            <p class="book-author">von Ivan Ertlov</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0H2JLVJB8/?source_code=EKAORWS0223189009-BK-ACX0-512565&ref=acx_bty_BK_ACX0_512565_rh_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4wUkAFA" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Psi Corps 2045: Der Whitsundays-Zwischenfall -->
+        <article class="book-card" data-category="thriller">
+          <div class="book-cover-wrap">
+            <img src="cover/psi-corps-2045-whitsundays.jpg" alt="Buchcover: Psi Corps 2045 – Der Whitsundays-Zwischenfall" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Thriller</span>
+            <h3 class="book-title">Psi Corps 2045 – Der Whitsundays-Zwischenfall</h3>
+            <p class="book-author">von Ivan Ertlov</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0H2JR7KG4/?source_code=EKAORWS0223189009-BK-ACX0-512566&ref=acx_bty_BK_ACX0_512566_rh_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4vkYwTe" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Psi Corps 2046: Endstation Mars -->
+        <article class="book-card" data-category="thriller">
+          <div class="book-cover-wrap">
+            <img src="cover/psi-corps-2046-endstation-mars.jpg" alt="Buchcover: Psi Corps 2046 – Endstation Mars" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Thriller</span>
+            <h3 class="book-title">Psi Corps 2046 – Endstation Mars</h3>
+            <p class="book-author">von Ivan Ertlov</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0H2JLVRK4/?source_code=EKAORWS0223189009-BK-ACX0-512568&ref=acx_bty_BK_ACX0_512568_rh_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4dECnJq" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Psi Corps Staffel 1 -->
+        <article class="book-card" data-category="thriller">
+          <div class="book-cover-wrap">
+            <img src="cover/psi-corps-staffel-1.jpg" alt="Buchcover: Psi Corps Staffel 1: 2044–2046" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Thriller</span>
+            <h3 class="book-title">Psi Corps: Staffel 1 (2044–2046)</h3>
+            <p class="book-author">von Ivan Ertlov</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0H2N43FML/?source_code=EKAORWS0223189009-BK-ACX0-512789&ref=acx_bty_BK_ACX0_512789_rh_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4u7AJVE" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Das Zerbrechen meines Herzens -->
+        <article class="book-card" data-category="teen-ya">
+          <div class="book-cover-wrap">
+            <img src="cover/das-zerbrechen-meines-herzens.jpg" alt="Buchcover: Das Zerbrechen meines Herzens" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Teen &amp; Young Adult</span>
+            <h3 class="book-title">Das Zerbrechen meines Herzens</h3>
+            <p class="book-author">von Lea-Sophie Schwarzat</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0FYRVNQ7N/?source_code=EKAORWS022318900A-BK-ACX0-478440&ref=acx_bty_BK_ACX0_478440_pd_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4320KL2" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Forever: Ein Leben lang du -->
+        <article class="book-card" data-category="romance">
+          <div class="book-cover-wrap">
+            <img src="cover/forever-ein-leben-lang-du.jpg" alt="Buchcover: Forever – Ein Leben lang du" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Romance</span>
+            <h3 class="book-title">Forever – Ein Leben lang du</h3>
+            <p class="book-author">von Anja Langrock</p>
+            <div class="book-btns">
+              <a href="AUDIBLE-LINK-FOLGT" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4feeBFt" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sparkling Winter Dreams -->
+        <article class="book-card" data-category="romance">
+          <div class="book-cover-wrap">
+            <img src="cover/sparkling-winter-dreams.jpg" alt="Buchcover: Sparkling Winter Dreams" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Romance</span>
+            <h3 class="book-title">Sparkling Winter Dreams</h3>
+            <p class="book-author">von Anja Langrock</p>
+            <div class="book-btns">
+              <a href="AUDIBLE-LINK-FOLGT" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/3RTKARv" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Genesis – Das Ende der Menschheit (Teil 1) -->
+        <article class="book-card" data-category="science-fiction">
+          <div class="book-cover-wrap">
+            <img src="cover/genesis-das-ende-der-menschheit.jpg" alt="Buchcover: Genesis – Das Ende der Menschheit" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Science Fiction</span>
+            <h3 class="book-title">Genesis – Das Ende der Menschheit</h3>
+            <p class="book-author">von Patrick Sánchez Beyrer</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0F46GN2MT/?source_code=EKAORWS022318900A-BK-ACX0-442433&ref=acx_bty_BK_ACX0_442433_pd_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4uWXddr" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Genesis – Das GEN 515 (Teil 2) -->
+        <article class="book-card" data-category="science-fiction">
+          <div class="book-cover-wrap">
+            <img src="cover/genesis-das-gen-515.jpg" alt="Buchcover: Genesis – Das GEN 515" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Science Fiction</span>
+            <h3 class="book-title">Genesis – Das GEN 515</h3>
+            <p class="book-author">von Patrick Sánchez Beyrer</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0F763L33B/?source_code=EKAORWS022318900A-BK-ACX0-446990&ref=acx_bty_BK_ACX0_446990_pd_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4x4bDd9" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Genesis – Letzte Hoffnung (Teil 3) -->
+        <article class="book-card" data-category="science-fiction">
+          <div class="book-cover-wrap">
+            <img src="cover/genesis-letzte-hoffnung.jpg" alt="Buchcover: Genesis – Letzte Hoffnung" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Science Fiction</span>
+            <h3 class="book-title">Genesis – Letzte Hoffnung</h3>
+            <p class="book-author">von Patrick Sánchez Beyrer</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0F7N44DCZ/?source_code=EKAORWS022318900A-BK-ACX0-447533&ref=acx_bty_BK_ACX0_447533_pd_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/49vAMTT" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Genesis – Dragica & Nevena (Teil 4) -->
+        <article class="book-card" data-category="science-fiction">
+          <div class="book-cover-wrap">
+            <img src="cover/genesis-dragica-nevena.jpg" alt="Buchcover: Genesis – Dragica & Nevena" class="book-cover"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="book-cover-placeholder"><span>Cover</span></div>
+          </div>
+          <div class="book-info">
+            <span class="book-genre">Science Fiction</span>
+            <h3 class="book-title">Genesis – Dragica &amp; Nevena</h3>
+            <p class="book-author">von Patrick Sánchez Beyrer</p>
+            <div class="book-btns">
+              <a href="https://www.audible.de/pd/B0F9FY48F7/?source_code=EKAORWS022318900A-BK-ACX0-450041&ref=acx_bty_BK_ACX0_450041_pd_de" target="_blank" rel="noopener" class="book-btn book-btn--audible">Audible</a>
+              <a href="https://amzn.to/4fISPd2" target="_blank" rel="noopener" class="book-btn book-btn--amazon">Amazon</a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /books-grid -->
+    </div>
+  </section>
+
+  <!-- ── ZITAT / QUOTE ── -->
+  <section class="quote-band">
+    <div class="container">
+      <blockquote class="pull-quote">
+        „Eine gute Stimme öffnet die Tür zur Geschichte –<br>
+        eine große Stimme lässt dich gar nicht mehr heraus."
+        <cite>– Angela Wolber</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section cta-band">
+    <div class="container" style="text-align:center;">
+      <span class="section-label">Ihr Projekt</span>
+      <h2 class="section-title">Sie schreiben – ich spreche.</h2>
+      <p class="section-intro" style="margin-inline:auto;">Sie haben ein Manuskript, das eine Stimme sucht? Lassen Sie uns darüber sprechen.</p>
+      <a href="kontakt.html" class="btn btn-primary" style="margin-top:1.5rem;">Kostenlose Demo anfordern</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-name">Angela Wolber</span>
+        <span class="logo-tagline">Sprecherin</span>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/angela_wolber/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a href="https://www.tiktok.com/@angelawolber5" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.59c.27 0 .53.04.78.12v-3.2a5.78 5.78 0 0 0-.78-.05A5.79 5.79 0 1 0 15.65 15.4V9.01a7.35 7.35 0 0 0 4.35 1.4V7.3a4.28 4.28 0 0 1-3.4-1.48z"></path></svg>
+        </a>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Start</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="hoerbuecher.html">Hörbücher</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum-datenschutz.html">Impressum</a>
+        <a href="impressum-datenschutz.html#datenschutz">Datenschutz</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Angela Wolber · Alle Rechte vorbehalten</p>
+      <p class="footer-affiliate">
+        * Affiliate-Links: Als Partnerin verdiene ich bei qualifizierten Käufen eine kleine Provision –
+        für Sie entstehen keine Mehrkosten.
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

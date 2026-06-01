@@ -1,0 +1,11 @@
+# Private/interne Dateien – NICHT ins öffentliche Web
+*.docx
+*.xlsx
+*.pdf
+contact.php
+
+# System-/Editor-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
